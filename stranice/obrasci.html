@@ -49,8 +49,19 @@
     <p>
         <h1> Da li ste do sada koristili usluge naše tvrtke</h1>
 
-        <input type="radio" name="da" value="da" checked> da <br>
-        <input type="radio" name="ne" value="ne" checked> ne
+        <input type="radio" name="opcija" value="da" > da <br>
+        <input type="radio" name="opcija" value="ne" > ne
+
+    </p>
+
+    <p>
+        <label for="cv">Priložite životpois</label><br>
+        <input id="cv" type="file" name="cv" required>
+
+    </p>
+    <p>
+        <input name="reset_btn" type="reset" value="Poništi">
+        <input name="submit_btn" type="submit" value="Prijavi se" >
 
     </p>
 </form>
